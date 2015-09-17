@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEF7FC53-1D78-130F-A0FA-59DFCC476700" name="TABLE_2">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:47:46 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Column_1" id="15DC2816-4F6A-342A-6894-EFFC04441F64">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:51:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_2" id="66E94BF3-57B4-9D20-4557-B4D2FEE97673">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:51:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="FC3C14B2-E12A-0B76-8971-E5255B2CA7D5">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:51:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_4" id="24D0EE40-C079-2F4A-E48E-D2D751331563">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:51:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6617498B-0954-BD59-C4A7-CBB731918F41" name="TABLE_2_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:51:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15DC2816-4F6A-342A-6894-EFFC04441F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

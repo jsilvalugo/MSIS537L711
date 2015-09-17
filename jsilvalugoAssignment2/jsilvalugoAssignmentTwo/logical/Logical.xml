@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="09F7AA48-BB5A-0675-846F-1EF5BB582E3A" mainViewID="B062975C-F1E0-1757-5CE3-FB43E94ED60F">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-09-15 02:19:06 UTC</createdTime>
+<ownerDesignName>jsilvalugoAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

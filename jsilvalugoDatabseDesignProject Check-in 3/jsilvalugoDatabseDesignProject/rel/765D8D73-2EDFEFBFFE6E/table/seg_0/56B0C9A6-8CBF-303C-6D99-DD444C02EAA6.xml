@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56B0C9A6-8CBF-303C-6D99-DD444C02EAA6" name="Enrollment">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:37:52 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Offering_OfferNo" id="3FBC0B2B-F8A5-98AF-78DA-AD2F3BF69835">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:51:44 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2218120E-D2C2-CEFE-8CEB-14A2F0B184FE" referredColumn="4ECB40FE-A9AB-223B-06DA-39C222B2F1DD"/>
+</associations>
+</Column>
+<Column name="Student_StdNo" id="C93DCBDD-58E0-EEC6-FF0A-5A33C049E068">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:53:18 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D8006CA-F922-353C-181F-1AF96E0CC375" referredColumn="470411B9-FB3F-9933-5336-CED7B4644906"/>
+</associations>
+</Column>
+<Column name="Grade" id="37DC09C0-6065-A93B-043A-DAF69C20A990">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:40:28 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AAA9338-6674-5988-59C0-FD54F481D44F" name="Enrollment_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:17:00 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FBC0B2B-F8A5-98AF-78DA-AD2F3BF69835"/>
+<colUsage columnID="C93DCBDD-58E0-EEC6-FF0A-5A33C049E068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31809C95-FD3B-4BAE-E462-9B028042D0DA" name="Enrollment_Offering_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:51:44 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FBC0B2B-F8A5-98AF-78DA-AD2F3BF69835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15E578FC-D1D4-EEED-D6B3-7298B20783B4" name="Enrollment_Student_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:53:18 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C93DCBDD-58E0-EEC6-FF0A-5A33C049E068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

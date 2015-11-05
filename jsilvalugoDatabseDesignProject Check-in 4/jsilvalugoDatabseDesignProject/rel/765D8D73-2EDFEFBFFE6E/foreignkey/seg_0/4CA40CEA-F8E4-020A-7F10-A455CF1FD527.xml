@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4CA40CEA-F8E4-020A-7F10-A455CF1FD527" containerWithKeyObject="8BC87306-387F-5C23-7297-A852667C0CD3" localFKIndex="58E101DF-56F3-D6A0-7B2D-AE77E8D5D94F" name="Person_Spouse_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:30:35 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>388B1DCC-AD1B-9963-7F0E-AFF4FA019C97</referredTableID>
+<keyObject>42E97106-9F11-C88D-EE02-D36D5E4AD1B9</keyObject>
+<referredKeyID>42E97106-9F11-C88D-EE02-D36D5E4AD1B9</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

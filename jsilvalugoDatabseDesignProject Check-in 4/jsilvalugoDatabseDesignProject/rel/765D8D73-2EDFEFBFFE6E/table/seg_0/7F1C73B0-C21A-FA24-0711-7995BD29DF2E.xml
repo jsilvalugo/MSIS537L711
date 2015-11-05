@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F1C73B0-C21A-FA24-0711-7995BD29DF2E" name="Student">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 13:51:33 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StdNo" id="470411B9-FB3F-9933-5336-CED7B4644906">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 13:59:01 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_PersonID" id="FDEF434B-0687-2F5A-B06F-5546ECFC40B5">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:22:42 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F71EB79-FC77-01A2-B27A-EFBFC74BFDC9" referredColumn="5B4CB179-D339-4B5B-B435-ED33C9D7AB73"/>
+</associations>
+</Column>
+<Column name="StdFirstName" id="D0113839-4905-B94F-F862-657BE5A147B0">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:01:12 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StdLastName" id="6706A2F5-6CA3-C344-0CAC-65DA7D779653">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:01:37 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="31A3B15B-5500-2744-A41F-5BE8A9022FA1">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:02:08 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="5493D567-11C1-BD08-377D-DB9E4FF16510">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:02:46 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zip" id="BA597D8A-A1CD-6C6C-3663-A910E42A05F5">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:03:06 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Major" id="2B6BC2EF-81D9-B4F1-C429-D7A4854DE008">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:03:34 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GPA" id="E942967C-4661-485C-E5C7-CA1369847E56">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 14:03:59 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17879159-A45B-8F45-9C52-A90078E8DDF3" name="Student_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 13:59:01 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="470411B9-FB3F-9933-5336-CED7B4644906"/>
+<colUsage columnID="FDEF434B-0687-2F5A-B06F-5546ECFC40B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D964821-FC58-BA8C-11E5-20A092DE854B" name="Student_Person_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:22:42 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDEF434B-0687-2F5A-B06F-5546ECFC40B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="02EE88B9-A9FA-D779-7866-56E3E4108684" name="Learning Analytics" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

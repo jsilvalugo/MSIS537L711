@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30053E7A-2BAC-C2B9-CF50-18D614094703" name="Quiz">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:26:04 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QuizID" id="A0E7A5B3-26F5-E964-B175-77E7936814C9">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_CourseNo" id="22172195-9964-375D-056D-D1124D5750CC">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 17:00:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F702E181-FACA-9BDD-6997-713CFA682154" referredColumn="265F0899-D50E-1871-E1DB-2CAA09C05C9E"/>
+</associations>
+</Column>
+<Column name="QuizName" id="1852D5E8-FA1A-7EE8-1AD6-4927583F7724">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizMaxPoints" id="2CB0F637-FB8B-1BE0-A0D5-5184CCF38686">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizScore" id="4362094D-D132-41D5-9938-3B847202932E">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizTimeLimit" id="3C0E5586-3CC4-9594-D428-B365E770B7F0">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizResponses" id="E78DC574-F3FA-0A99-5885-E6B43307A815">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:44 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizAnswers" id="F22C3932-DA07-D0CF-B72E-6243C1D15A6A">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:29:07 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizAvaiDate" id="4E3BB7D8-FF5E-E446-3EAC-395B5FEC7340">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizSubDate" id="7240DB22-3B06-9E71-415D-0D92DD0BC0ED">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuizUntDate" id="A8E4C654-33B1-FEED-6E37-B163DE1CB53D">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:28:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82E9104C-FFCE-B77A-EC8D-0DCFB269A5A1" name="Quiz_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 17:02:32 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0E7A5B3-26F5-E964-B175-77E7936814C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B3AE11-B24D-A438-1C5D-C09E3B8F9857" name="Quiz_Course_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 17:00:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22172195-9964-375D-056D-D1124D5750CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

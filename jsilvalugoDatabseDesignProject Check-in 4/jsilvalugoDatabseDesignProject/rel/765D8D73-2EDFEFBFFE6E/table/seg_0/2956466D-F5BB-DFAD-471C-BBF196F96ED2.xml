@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2956466D-F5BB-DFAD-471C-BBF196F96ED2" name="Demographic2">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:40:23 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_StdNo" id="C3E3C2B3-3E91-977E-C90E-1CD4E3FB30A4">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 17:18:08 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E94059B3-5F8E-FF94-3E97-599C1E3C73B9" referredColumn="470411B9-FB3F-9933-5336-CED7B4644906"/>
+</associations>
+</Column>
+<Column name="SatVerbal" id="BF425955-0800-0679-2A4C-6CB13149ABDA">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:42:56 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SatMath" id="22CC642F-871E-2F6C-B03F-DAA673B48D59">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:43:26 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Class" id="46CA7809-2384-4D29-E213-3FCC4C445A6B">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:43:55 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Major" id="4065FBC2-EAB4-B0C6-2724-C55702A80029">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:44:42 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoCreditHours" id="11A33F55-3B8D-2DD2-54E2-63E02558BD1F">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:45:08 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_Person_PersonID" id="3EB68F72-C1A6-BCB6-F7EF-1B733C1A85BC">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:26:15 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E94059B3-5F8E-FF94-3E97-599C1E3C73B9" referredColumn="FDEF434B-0687-2F5A-B06F-5546ECFC40B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD7F7589-5FA6-BCD5-648B-7CF0B2C67F5E" name="Demographic2_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 17:14:59 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3E3C2B3-3E91-977E-C90E-1CD4E3FB30A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB5F273D-F917-7F39-AB17-5B37976634C9" name="Demographic2_Student_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 17:18:08 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3E3C2B3-3E91-977E-C90E-1CD4E3FB30A4"/>
+<colUsage columnID="3EB68F72-C1A6-BCB6-F7EF-1B733C1A85BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

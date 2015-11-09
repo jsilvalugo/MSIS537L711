@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BC87306-387F-5C23-7297-A852667C0CD3" name="Person">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:14:10 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonID" id="5B4CB179-D339-4B5B-B435-ED33C9D7AB73">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:14:43 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Spouse_SpouseID" id="CA8550B6-B656-706C-201C-67764E4FCB7F">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:30:35 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CA40CEA-F8E4-020A-7F10-A455CF1FD527" referredColumn="6CB07C4F-89C5-60CB-6111-48D011972611"/>
+</associations>
+</Column>
+<Column name="Person_PersonID" id="53AF2408-FA4F-13E3-F003-8CBA6F864F3B">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:40:43 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDD840A4-6322-7FCA-2F34-9F6A32873C0D" referredColumn="5B4CB179-D339-4B5B-B435-ED33C9D7AB73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5869D95-7BBC-612E-92C6-3FF37C3C44A3" name="Person_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:22:20 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4CB179-D339-4B5B-B435-ED33C9D7AB73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E101DF-56F3-D6A0-7B2D-AE77E8D5D94F" name="Person_Spouse_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:30:35 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8550B6-B656-706C-201C-67764E4FCB7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C783D782-DC92-B9D4-55AB-2463316A9908" name="Spouse_SpouseID_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-05 03:40:43 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53AF2408-FA4F-13E3-F003-8CBA6F864F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

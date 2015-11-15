@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35BDD08F-6CBE-475E-87F3-BB1018B1595A" name="Assignment">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:00:51 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AssigID" id="89E56121-0CFA-699B-7BE5-7F05830ACE93">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:01:42 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_CourseNo" id="F228D341-AB68-0EA9-D403-0EE3CF561FC7">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:57:15 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF66CD4F-8442-6FEE-4F8D-0B124B1CEEA6" referredColumn="265F0899-D50E-1871-E1DB-2CAA09C05C9E"/>
+</associations>
+</Column>
+<Column name="AssigName" id="ED796611-0A21-3957-984D-2B054529859A">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:08:03 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssigDesc" id="E0C766A3-28E7-AAA3-3770-4B5C7754290F">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:08:55 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssigMaxPoints" id="943626CA-5BAD-F5CA-2402-0EF6F6F76F34">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:09:36 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssigScore" id="584A8F9B-8D42-D761-DD0A-D5C3A259350D">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:10:04 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssigAvaiDate" id="7DE4743D-372C-B169-6EC5-4681058E58C0">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:10:51 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssigSubDate" id="965AD24A-2819-C481-5BE9-40A8FB207F94">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:11:51 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssigUntDate" id="9212A5D6-E0F1-6394-2C91-964518D47198">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:12:19 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94738ECE-9FD4-2E60-96B4-DC45C706E4C9" name="Assignment_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 15:17:16 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89E56121-0CFA-699B-7BE5-7F05830ACE93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DB41CFD-FC4B-7A8B-9618-B04D3138C76E" name="Assignment_Course_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:57:15 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F228D341-AB68-0EA9-D403-0EE3CF561FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

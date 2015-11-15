@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26302E74-D3C9-A77B-B03E-325EE8113AAA" name="Demographic1">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:33:49 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_StdNo" id="879A384B-1127-02A8-4CA7-52E680638B20">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-14 18:50:23 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2281CD7-C2BF-2348-F5C8-38683C9BA5D7" referredColumn="ED4515CF-9890-6027-2256-4B21D63BEA6F"/>
+</associations>
+</Column>
+<Column name="Age" id="1E7C4FD3-D29C-D32F-E6CC-043CD051B882">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:35:22 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="C142BEF7-2A66-831F-724E-ACB941B5F3C1">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:35:48 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Race" id="325F76E1-319A-0A4B-FD24-DEE086FCC0E4">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:36:17 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ethinicity" id="E80991D7-37C9-383D-1CC0-4CD8AE1AC91C">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:36:44 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaritalStatus" id="AA25E57D-F92C-2D46-F3C3-00A183D88E8B">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:37:13 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FamilySize" id="C1DB7EC0-487E-0657-A591-D74A97C2DFDB">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:37:36 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpStatus" id="2406DEBD-B150-03F9-BDC3-C9A8ECEDB409">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:38:26 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnnualIncome" id="A84283EA-3CFF-B845-8BD7-3EEE067688AB">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:38:52 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C778D530-53AC-20C8-9B4F-9A67F06ADBE6" name="Demographic I_PK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 16:34:53 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="879A384B-1127-02A8-4CA7-52E680638B20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B32EAB58-6E78-8EB2-E69A-DBEBB5DD0F16" name="Demographic1_Student_FK">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-14 18:50:23 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="879A384B-1127-02A8-4CA7-52E680638B20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Learning Analytics" id="765D8D73-4FB1-FCC6-0FE0-2EDFEFBFFE6E" mainViewID="02EE88B9-A9FA-D779-7866-56E3E4108684">
+<createdBy>Jose L. Silva-Lugo</createdBy>
+<createdTime>2015-11-01 13:47:34 UTC</createdTime>
+<ownerDesignName>jsilvalugoDatabseDesignProject</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

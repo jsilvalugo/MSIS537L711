@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="26302E74-D3C9-A77B-B03E-325EE8113AAA" name="Demographic" seqName="seg_0"/>
+   <object objectType="Table" objectID="2956466D-F5BB-DFAD-471C-BBF196F96ED2" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="30053E7A-2BAC-C2B9-CF50-18D614094703" name="Quiz" seqName="seg_0"/>
+   <object objectType="Table" objectID="308040EF-EC55-B206-60F7-22EBAAFEE165" name="Course" seqName="seg_0"/>
+   <object objectType="Table" objectID="35BDD08F-6CBE-475E-87F3-BB1018B1595A" name="Assignment" seqName="seg_0"/>
+   <object objectType="Table" objectID="388B1DCC-AD1B-9963-7F0E-AFF4FA019C97" name="Spouse" seqName="seg_0"/>
+   <object objectType="Table" objectID="56B0C9A6-8CBF-303C-6D99-DD444C02EAA6" name="Enrollment" seqName="seg_0"/>
+   <object objectType="Table" objectID="7F1C73B0-C21A-FA24-0711-7995BD29DF2E" name="Student" seqName="seg_0"/>
+   <object objectType="Table" objectID="9986A2F3-5E85-1122-6614-2E6B839ED4F8" name="Offering" seqName="seg_0"/>
+   <object objectType="Table" objectID="D8B5B0A4-05EE-7B02-5D1D-82658F20EE72" name="Discussion" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="16B7AE7F-C94C-812C-689D-BFBDC408995E" name="Discussion_Course_FK" containerID="D8B5B0A4-05EE-7B02-5D1D-82658F20EE72" refContainerID="308040EF-EC55-B206-60F7-22EBAAFEE165" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="20ACDFD0-0D0C-B76C-F90D-A32DF1C7F71A" name="Offering_Course_FK" containerID="9986A2F3-5E85-1122-6614-2E6B839ED4F8" refContainerID="308040EF-EC55-B206-60F7-22EBAAFEE165" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2218120E-D2C2-CEFE-8CEB-14A2F0B184FE" name="Enrollment_Offering_FK" containerID="56B0C9A6-8CBF-303C-6D99-DD444C02EAA6" refContainerID="9986A2F3-5E85-1122-6614-2E6B839ED4F8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3A8289DA-9837-3A4E-05C7-CB388EC3162A" name="" containerID="" refContainerID="" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B2281CD7-C2BF-2348-F5C8-38683C9BA5D7" name="Demographic1_Student_FK" containerID="26302E74-D3C9-A77B-B03E-325EE8113AAA" refContainerID="7F1C73B0-C21A-FA24-0711-7995BD29DF2E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF66CD4F-8442-6FEE-4F8D-0B124B1CEEA6" name="Assignment_Course_FK" containerID="35BDD08F-6CBE-475E-87F3-BB1018B1595A" refContainerID="308040EF-EC55-B206-60F7-22EBAAFEE165" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E9C13B30-70CE-8A12-569B-423FC4244081" name="Enrollment_Student_FK" containerID="56B0C9A6-8CBF-303C-6D99-DD444C02EAA6" refContainerID="7F1C73B0-C21A-FA24-0711-7995BD29DF2E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F702E181-FACA-9BDD-6997-713CFA682154" name="Quiz_Course_FK" containerID="30053E7A-2BAC-C2B9-CF50-18D614094703" refContainerID="308040EF-EC55-B206-60F7-22EBAAFEE165" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
